@@ -48,31 +48,44 @@ SQL queries to retrieve and filter data.
 Streamlit for visualization and interaction.
 
 Results
+
 Successfully scrape data for at least 10 Government State Transport and selected private routes.
 Store data in a structured SQL database.
 Create an interactive and efficient Streamlit application for filtering and analysis.
-Project Deliverables
-Source Code: Python scripts for scraping, database interaction, and Streamlit app.
-Documentation: Explanation of code, usage instructions, and database schema.
-Database Schema: SQL scripts to create and populate the database.
-Streamlit Application: Screenshots or a hosted app showcasing functionality.
+
+
 Database Schema
 Table Name: bus_routes
 
 Column Name	Data Type	Description
+
 id	INT	Primary Key (Auto-increment)
+
 route_name	TEXT	Bus route information
+
 route_link	TEXT	Link to route details
+
 busname	TEXT	Name of the bus
+
 bustype	TEXT	Bus type (Sleeper/Seater/AC/Non-AC)
+
 departing_time	TIME	Scheduled departure time
+
 duration	TEXT	Journey duration
+
 reaching_time	TIME	Expected arrival time
+
 star_rating	FLOAT	Passenger rating
+
 price	DECIMAL	Ticket price
+
 seats_available	INT	Number of seats available
 
+
 References
+
 Selenium Documentation
+
 Streamlit Documentation
+
 SQL Connection Guide
