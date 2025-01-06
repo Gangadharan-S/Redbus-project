@@ -32,9 +32,7 @@ with col1:
         "Select State(s):",
         options=np.append(['Anything'], initial_data['states'].unique()),
         key="state_filter"  # unique key for this filter
-    )
-    
-       
+    )       
 
 with col2:
     # Update Route Filter based on selected States
@@ -53,7 +51,6 @@ with col2:
 # Sidebar Filters
 with st.sidebar:
     st.header(":red[Additional Filters]")
-
     
     # Price Range Filter
     st.write("Select Price Range:")
